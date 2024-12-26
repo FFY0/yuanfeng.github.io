@@ -7,17 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I earned my bachelor’s degree in the School of Software Engineering at [Harbin Institute of Technology (HIT)](https://www.hit.edu.cn/) in 2022. The same year, I was admitted to the School of Computer Science and Technology at [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) to pursue a master’s degree, and in 2024, I transitioned to the PhD program. Currently, I am a first-year Ph.D. candidate jointly supervised by Prof. [Prof. Xike Xie](http://staff.ustc.edu.cn/~xkxie/), [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en), and [Prof. JunMing Xiao](http://staff.ustc.edu.cn/~xiaomj/indexEN.html), and I am affiliated with the Data Darkness Lab (DDL) under the ([MIRECLE Center](https://miracle.ustc.edu.cn/main.htm)).
+I earned my bachelor’s degree in the School of Software Engineering at [Harbin Institute of Technology (HIT)](https://www.hit.edu.cn/) in 2022. The same year, I was admitted to the School of Computer Science and Technology at [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) to pursue a master’s degree, and in 2024, I transitioned to the PhD program. Currently, I am a first-year Ph.D. candidate jointly supervised by Prof. [Prof. Xike Xie](http://staff.ustc.edu.cn/~xkxie/), [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en), and [Prof. JunMing Xiao](http://staff.ustc.edu.cn/~xiaomj/indexEN.html), and I am affiliated with the Data Darkness Lab (DDL) under the ([MIRACLE Center](https://miracle.ustc.edu.cn/main.htm)).
 
 My research journey began with an exploration into understanding and leveraging the memory within neural networks to accomplish intriguing tasks. In addition, I am delving into the KV Cache memory mechanisms of LLMs, with the objective of unraveling their intrinsic workings and making application contributions like optimizing inference efficiency.
 
-**Please don’t hesitate to reach out for any discussions. You can contact me via email at yfung@mail dot ustc dot edu dot cn. I am always open to engaging in intriguing research endeavors! 😊**
+**Please don’t hesitate to reach out for any discussion. You can contact me via email at yfung@mail dot ustc dot edu dot cn. I am always open to engaging in intriguing research endeavors! 😊**
 
 ------
 
 ## Research Interests:
 
 🎯 **Teaching neural networks to memorize data streams & Try to learning an algorithm!**
+
 1. Meta-sketch: A neural data structure for estimating item frequencies of data streams. **<span style="color:#CD5C5C;"> (CCF-A, AAAI23 Oral)</span>**
 2. Mayfly: a Neural Data Structure for Graph Stream Summarization. **<span style="color:#CD5C5C;"> (Top AI Conf., ICLR24 Spotlight)</span>**
 3. Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data. **<span style="color:#CD5C5C;"> (CCF-A, TPAMI24)</span>**
