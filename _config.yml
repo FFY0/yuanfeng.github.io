@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "yuanfeng.jpg"
+  avatar           : "yuanfeng.png"
   name             : "Yuan Feng"
   pronouns         : # example: "she/her"  
   bio              : "Keep Moving"
