@@ -1,49 +1,71 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+#title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I earned my bachelor’s degree in the School of Software Engineering at [Harbin Institute of Technology (HIT)](https://www.hit.edu.cn/) in 2022. The same year, I was admitted to the School of Computer Science and Technology at [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/) to pursue a master’s degree, and in 2024, I transitioned to the PhD program. Currently, I am a first-year Ph.D. candidate jointly supervised by Prof. [Prof. Xike Xie](http://staff.ustc.edu.cn/~xkxie/), [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en), and [Prof. JunMing Xiao](http://staff.ustc.edu.cn/~xiaomj/indexEN.html), and I am affiliated with the Data Darkness Lab (DDL) under the ([MIRECLE Center](https://miracle.ustc.edu.cn/main.htm)).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My research journey began with an exploration into understanding and leveraging the memory within neural networks to accomplish intriguing tasks. In addition, I am delving into the KV Cache memory mechanisms of LLMs, with the objective of unraveling their intrinsic workings and making application contributions like optimizing inference efficiency.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**Please don’t hesitate to reach out for any discussions. You can contact me via email at yfung@mail dot ustc dot edu dot cn. I am always open to engaging in intriguing research endeavors! 😊**
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
+## Research Interests:
+
+🎯 **Teaching neural networks to memorize data streams & Try to learning an algorithm!**
+1. Meta-sketch: A neural data structure for estimating item frequencies of data streams. **<span style="color:#CD5C5C;"> (CCF-A, AAAI23 Oral)</span>**
+2. Mayfly: a Neural Data Structure for Graph Stream Summarization. **<span style="color:#CD5C5C;"> (Top AI Conf., ICLR24 Spotlight)</span>**
+3. Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data. **<span style="color:#CD5C5C;"> (CCF-A, TPAMI24)</span>**
+
+🎯 **Understanding KV Cache Memory in LLMs And Compressing them!**
+
+1. Ada-KV: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference. **(Available on [Arxiv](https://arxiv.org/abs/2407.11550))**
+  
+    *We introduced the first head-wise adaptive cache compression and open-sourced our code. [**CloudFlare**](https://blog.cloudflare.com/workers-ai/making-workers-ai-faster/) has integrated our Ada-KV algorithm into vLLM, providing crucial support for real-world deployment, and released a [technical report](https://arxiv.org/abs/2410.00161) with detailed evaluation. Additionally, we’ve been invited by **Huawei** and **OPPO** to share our insights with their teams, aiding in practical applications!  We also actively collaborating with the community, hoping to assist future research in this area. Explore our [github repo](https://github.com/FFY0/AdaKV) and feel free to raise issues or contact us via email for any inquiries!*
+
+🎯 **Broader Research Horizons.**
+
+1. Interpretable Memory in LLMs
+2. Multimodal Large Models
+3. Test-time Scaling Laws
+
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+## Publications
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+1.  <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference." arXiv preprint arXiv:2407.11550 (2024) ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
 
-How to edit your site's GitHub repository
+2. <span style="color:#BEBEBE;">**[Arxiv]**</span> Junlin Lv, **Yuan Feng**, Xike Xie, Xin Jia, Qirong Peng, and Guiming Xie. "CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs." arXiv preprint arXiv:2409.12490 (2024) ([paper](https://arxiv.org/abs/2409.12490), [code](https://github.com/66RING/CritiPrefill)).
+
+3. <span style="color:#CD5C5C;"> **[ICLR24 Spotlight Paper (Top AI Conf.)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Mayfly: a Neural Data Structure for Graph Stream Summarization." In The Twelfth International Conference on Learning Representations, 2024 Spotlight.([paper](https://openreview.net/pdf?id=n7Sr8SW4bn), [code](https://openreview.net/attachment?id=n7Sr8SW4bn&name=supplementary_material))
+
+4.  <span style="color:#CD5C5C;"> **[TPAMI 24-Regular Paper (CCF-A)]**</span> Yukun Cao, **Yuan Feng<sup>Co-First</sup>**, Hairu Wang, Xike Xie, and S. Kevin Zhou. "Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data." IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024 ([paper](https://ieeexplore.ieee.org/abstract/document/10499867/), [code](https://github.com/FFY0/MetaSketch_TPAMI)).
+
+5. <span style="color:#CD5C5C;"> **[AAAI 23-Oral Paper (CCF-A)]**</span>  Yukun Cao, **Yuan Feng**, and Xike Xie. "Meta-sketch: A neural data structure for estimating item frequencies of data streams." In Proceedings of the AAAI Conference on Artificial Intelligence, 2023 Oral. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/25846), [code](https://github.com/FFY0/meta-sketch))
+
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Honors
 
-For more info
+* 2024 **PhD's First Prize Scholarship** in USTC
+
+* 2022/2023 two times **Master’s First Prize Scholarship** in USTC
+
+* 2021 **Outstanding Student Award** in HIT
+
+* 2020/2021 two times **National Scholarship** in HIT
+
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+## Educations
+
+* 2024.09 - , PhD candidate in Computer Science and Technology, University of Science and Technology of China (USTC).
+
+* 2022.09 - 2024.06, Master in Computer Science and Technology, University of Science and Technology of China (USTC).
+
+* 2018.09 - 2022.06, Bachelor in Software Engineering, Harbin Institute of Technology (HIT).
