@@ -22,6 +22,7 @@ My research journey began with an exploration into understanding and leveraging 
 1. Meta-sketch: A neural data structure for estimating item frequencies of data streams. **<span style="color:#CD5C5C;"> (CCF-A, AAAI23 Oral)</span>**
 2. Mayfly: a Neural Data Structure for Graph Stream Summarization. **<span style="color:#CD5C5C;"> (Top AI Conf., ICLR24 Spotlight)</span>**
 3. Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data. **<span style="color:#CD5C5C;"> (CCF-A, TPAMI24)</span>**
+4. Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. **<span style="color:#CD5C5C;"> (CCF-A, ICML25)</span>**
 
 🎯 **Understanding KV Cache Memory in LLMs And Compressing them!**
 
@@ -29,11 +30,14 @@ My research journey began with an exploration into understanding and leveraging 
   
     *We introduced the first head-wise adaptive cache compression and open-sourced our code. [**CloudFlare**](https://blog.cloudflare.com/workers-ai/making-workers-ai-faster/) has integrated our Ada-KV algorithm into vLLM, providing crucial support for real-world deployment, and released a [technical report](https://arxiv.org/abs/2410.00161) with detailed evaluation. Additionally, we’ve been invited by **Huawei** and **OPPO** to share our insights with their teams, aiding in practical applications!  We also actively collaborating with the community, hoping to assist future research in this area. Explore our [github repo](https://github.com/FFY0/AdaKV) and feel free to raise issues or contact us via email for any inquiries!*
 
+2. Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective. **(Available on [Arxiv](https://arxiv.org/abs/2502.03805v1))**
+    *We applied perturbation analysis to show that KV cache eviction methods can be improved by integrating information from the value cache and pretrained parameters. Our evaluation in challenging context-only compression settings extends these findings to broader real-world applications, such as prefix context compression and multi-turn dialogues. We believe this work offers a novel theoretical perspective on the importance of KV cache, emphasizing the need to consider a broader range of information, including pretrained parameters in LLMs. If you would like to discuss our work further, please feel free to contact us via email.*
+
 🎯 **Broader Research Horizons.**
 
 1. Interpretable Memory in LLMs
 2. Multimodal Large Models
-3. Test-time Scaling Laws
+3. Test-time Scaling Laws / Reasoning Model
 
 ------
 
@@ -41,13 +45,17 @@ My research journey began with an exploration into understanding and leveraging 
 
 1.  <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference." arXiv preprint arXiv:2407.11550 (2024) ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
 
-2. <span style="color:#BEBEBE;">**[Arxiv]**</span> Junlin Lv, **Yuan Feng**, Xike Xie, Xin Jia, Qirong Peng, and Guiming Xie. "CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs." arXiv preprint arXiv:2409.12490 (2024) ([paper](https://arxiv.org/abs/2409.12490), [code](https://github.com/66RING/CritiPrefill)).
+2.  <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective." arXiv preprint arXiv:2407.11550 (2024) ([paper](https://arxiv.org/abs/2502.03805v1), [code](https://github.com/FFY0/AdaKV-in-NVIDIA-kvpress/tree/criticalkv)).
 
-3. <span style="color:#CD5C5C;"> **[ICLR24 Spotlight Paper (Top AI Conf.)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Mayfly: a Neural Data Structure for Graph Stream Summarization." In The Twelfth International Conference on Learning Representations, 2024 Spotlight.([paper](https://openreview.net/pdf?id=n7Sr8SW4bn), [code](https://openreview.net/attachment?id=n7Sr8SW4bn&name=supplementary_material))
+3. <span style="color:#5B8C5A;">**[ICASSP25 Poster Paper (CCF-B)]**</span> Junlin Lv, **Yuan Feng**, Xike Xie, Xin Jia, Qirong Peng, and Guiming Xie. "CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs." ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) ([paper](https://ieeexplore.ieee.org/abstract/document/10887916), [code](https://github.com/66RING/CritiPrefill)).
 
-4.  <span style="color:#CD5C5C;"> **[TPAMI 24-Regular Paper (CCF-A)]**</span> Yukun Cao, **Yuan Feng<sup>Co-First</sup>**, Hairu Wang, Xike Xie, and S. Kevin Zhou. "Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data." IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024 ([paper](https://ieeexplore.ieee.org/abstract/document/10499867/), [code](https://github.com/FFY0/MetaSketch_TPAMI)).
+4. <span style="color:#CD5C5C;"> **[ICML25 Poster Paper (CCF-A)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. In The 42nd International Conference on Machine Learning, 2025 Poster (The paper will be available soon., [code](https://github.com/FFY0/LegoSketch_ICML))
 
-5. <span style="color:#CD5C5C;"> **[AAAI 23-Oral Paper (CCF-A)]**</span>  Yukun Cao, **Yuan Feng**, and Xike Xie. "Meta-sketch: A neural data structure for estimating item frequencies of data streams." In Proceedings of the AAAI Conference on Artificial Intelligence, 2023 Oral. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/25846), [code](https://github.com/FFY0/meta-sketch))
+5. <span style="color:#CD5C5C;"> **[ICLR24 Spotlight Paper (Top AI Conf.)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Mayfly: a Neural Data Structure for Graph Stream Summarization." In The Twelfth International Conference on Learning Representations, 2024 Spotlight.([paper](https://openreview.net/pdf?id=n7Sr8SW4bn), [code](https://openreview.net/attachment?id=n7Sr8SW4bn&name=supplementary_material))
+
+6.  <span style="color:#CD5C5C;"> **[TPAMI24 Regular Paper (CCF-A)]**</span> Yukun Cao, **Yuan Feng<sup>Co-First</sup>**, Hairu Wang, Xike Xie, and S. Kevin Zhou. "Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data." IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024 ([paper](https://ieeexplore.ieee.org/abstract/document/10499867/), [code](https://github.com/FFY0/MetaSketch_TPAMI)).
+
+7. <span style="color:#CD5C5C;"> **[AAAI23 Oral Paper (CCF-A)]**</span>  Yukun Cao, **Yuan Feng**, and Xike Xie. "Meta-sketch: A neural data structure for estimating item frequencies of data streams." In Proceedings of the AAAI Conference on Artificial Intelligence, 2023 Oral. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/25846), [code](https://github.com/FFY0/meta-sketch))
 
 ------
 
@@ -62,6 +70,14 @@ My research journey began with an exploration into understanding and leveraging 
 * 2020/2021 two times **National Scholarship** in HIT
 
 ------
+
+## Service
+
+Reviewer
+
+* NeurIPS, 2025
+* ICLR, 2025
+* ICDE, 2024
 
 ## Educations
 
