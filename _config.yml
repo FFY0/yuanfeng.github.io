@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuan Feng's Homepage"
+title                    : "Yuan Feng (冯源) Homepage"
 title_separator          : "-"
 name                     : &name "Yuan Feng"
 description              : &description "PhD Candidate at USTC"
