@@ -17,12 +17,12 @@ My research journey began with an exploration into understanding and leveraging 
 
 ## Research Interests:
 
-🎯 **Teaching neural networks to memorize data streams & Try to learning an algorithm!**
+🎯 **Teaching neural networks to memorize data streams & Large-Scale Data Compression!**
 
-1. Meta-sketch: A neural data structure for estimating item frequencies of data streams. **<span style="color:#CD5C5C;"> (CCF-A, AAAI23 Oral)</span>**
-2. Mayfly: a Neural Data Structure for Graph Stream Summarization. **<span style="color:#CD5C5C;"> (Top AI Conf., ICLR24 Spotlight)</span>**
-3. Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data. **<span style="color:#CD5C5C;"> (CCF-A, TPAMI24)</span>**
-4. Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. **<span style="color:#CD5C5C;"> (CCF-A, ICML25)</span>**
+1. Meta-sketch: A neural data structure for estimating item frequencies of data streams. **<span style="color:#CD5C5C;"> (CCF-A, AAAI23 Oral) [link](https://ojs.aaai.org/index.php/AAAI/article/view/25846)</span>**
+2. Mayfly: a Neural Data Structure for Graph Stream Summarization. **<span style="color:#CD5C5C;"> (Top AI Conf., ICLR24 Spotlight) [link](https://openreview.net/pdf?id=n7Sr8SW4bn)</span>**
+3. Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data. **<span style="color:#CD5C5C;"> (CCF-A, TPAMI24) [link](https://ieeexplore.ieee.org/abstract/document/10499867/)</span>**
+4. Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. **<span style="color:#CD5C5C;"> (CCF-A, ICML25) This paper will be available soon.</span>**
 
 🎯 **Understanding KV Cache Memory in LLMs And Compressing them!**
 
@@ -33,6 +33,13 @@ My research journey began with an exploration into understanding and leveraging 
 2. Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective. **(Available on [Arxiv](https://arxiv.org/abs/2502.03805v1))**
     *We applied perturbation analysis to show that KV cache eviction methods can be improved by integrating information from the value cache and pretrained parameters. Our evaluation in challenging context-only compression settings extends these findings to broader real-world applications, such as prefix context compression and multi-turn dialogues. We believe this work offers a novel theoretical perspective on the importance of KV cache, emphasizing the need to consider a broader range of information, including pretrained parameters in LLMs. If you would like to discuss our work further, please feel free to contact us via email.*
 
+🎯 **RAG in LLMs.**
+
+I am also collaborating with other researchers on LLM RAG, focusing on deployment in practical applications.
+
+1. FRAG: A Flexible Modular Framework for Retrieval-Augmented Generation based on Knowledge Graphs **<span style="color:#CD5C5C;"> (CCF-A, ACL25 Findings) [link](https://arxiv.org/abs/2501.09957)</span>**
+2. Path Pooling: Training-Free Structure Enhancement for Efficient Knowledge Graph Retrieval-Augmented Generation. **(Available on [Arxiv](https://arxiv.org/abs/2503.05203))**
+
 🎯 **Broader Research Horizons.**
 
 1. Interpretable Memory in LLMs
@@ -41,7 +48,9 @@ My research journey began with an exploration into understanding and leveraging 
 
 ------
 
-## Publications
+## Selected Publications
+
+For full publications, please refer to my  [google scholar](https://scholar.google.com/citations?user=d2ESOiIAAAAJ&hl=en).
 
 1.  <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference." arXiv preprint arXiv:2407.11550 (2024) ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
 
@@ -49,7 +58,7 @@ My research journey began with an exploration into understanding and leveraging 
 
 3. <span style="color:#5B8C5A;">**[ICASSP25 Poster Paper (CCF-B)]**</span> Junlin Lv, **Yuan Feng**, Xike Xie, Xin Jia, Qirong Peng, and Guiming Xie. "CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs." ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) ([paper](https://ieeexplore.ieee.org/abstract/document/10887916), [code](https://github.com/66RING/CritiPrefill)).
 
-4. <span style="color:#CD5C5C;"> **[ICML25 Poster Paper (CCF-A)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. In The 42nd International Conference on Machine Learning, 2025 Poster (The paper will be available soon., [code](https://github.com/FFY0/LegoSketch_ICML))
+4. <span style="color:#CD5C5C;"> **[ICML25 Poster Paper (CCF-A)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. In The 42nd International Conference on Machine Learning, 2025 Poster (This paper will be available soon., [code](https://github.com/FFY0/LegoSketch_ICML))
 
 5. <span style="color:#CD5C5C;"> **[ICLR24 Spotlight Paper (Top AI Conf.)]**</span>  **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Mayfly: a Neural Data Structure for Graph Stream Summarization." In The Twelfth International Conference on Learning Representations, 2024 Spotlight.([paper](https://openreview.net/pdf?id=n7Sr8SW4bn), [code](https://openreview.net/attachment?id=n7Sr8SW4bn&name=supplementary_material))
 
@@ -59,7 +68,7 @@ My research journey began with an exploration into understanding and leveraging 
 
 ------
 
-## Honors
+## Selected Honors
 
 * 2024 **PhD's First Prize Scholarship** in USTC
 
@@ -71,13 +80,13 @@ My research journey began with an exploration into understanding and leveraging 
 
 ------
 
-## Service
+## Academic Service
 
 Reviewer
 
-* NeurIPS, 2025
-* ICLR, 2025
-* ICDE, 2024
+* NeurIPS, 2024&2025
+* ICLR, 2024&2025
+* ICDE, 2024&2025
 
 ## Educations
 
