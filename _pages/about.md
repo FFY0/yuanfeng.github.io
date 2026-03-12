@@ -35,7 +35,7 @@ My research started with exploring NNs' memory to tackle interesting tasks. Addi
 
     *We present the first perturbation-based analysis showing that KV cache eviction improves when integrating value-cache information with LLM pretrained parameters. We believe this work offes a novel theoretical perspective on KV cache importance estimation.*
 
-3. <span style="color:#002FA7;">**[ICLR 2026]**</span> Taming the Fragility of KV Cache Eviction in LLM Inference. [link](https://openreview.net/forum?id=nJgS06sX3O)
+3. <span style="color:#002FA7;">**[ICLR 2026]**</span> DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference. [link](https://openreview.net/forum?id=nJgS06sX3O)
 
     *We reveal the underlying stability assumption in KV cache eviction is inherently fragile, advocating a shift from average eviction loss optimization to worst-case risk control. We employ an extremely simple defensive aggregation (two-line code) to address this, reducing quality loss by up to 4.3× versus SOTA across 18 datasets.*
 
@@ -62,7 +62,7 @@ I am also collaborating with other researchers on LLM RAG, focusing on deploymen
 
 For full publications, please refer to my  [google scholar](https://scholar.google.com/citations?user=d2ESOiIAAAAJ&hl=en).
 
-1. <span style="color:#002FA7;">**[ICLR 2026]**</span> **Yuan Feng**, Haoyu Guo, Junlin Lv,  S. Kevin Zhou, and Xike Xie. "Taming the Fragility of KV Cache Eviction in LLM Inference."  ([paper](https://openreview.net/forum?id=nJgS06sX3O), [code](https://github.com/FFY0/AdaKV)).
+1. <span style="color:#002FA7;">**[ICLR 2026]**</span> **Yuan Feng**, Haoyu Guo, Junlin Lv,  S. Kevin Zhou, and Xike Xie. "DefensiveKV: Taming the Fragility of KV Cache Eviction in LLM Inference."  ([paper](https://openreview.net/forum?id=nJgS06sX3O), [code](https://github.com/FFY0/DefensiveKV)).
 
 2. <span style="color:#002FA7;">**[NeurIPS 2025]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference."  ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
 
