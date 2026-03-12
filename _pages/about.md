@@ -35,7 +35,11 @@ My research started with exploring NNs' memory to tackle interesting tasks. Addi
 
     *We present the first perturbation-based analysis showing that KV cache eviction improves when integrating value-cache information with LLM pretrained parameters. We believe this work offes a novel theoretical perspective on KV cache importance estimation.*
 
-3. <span style="color:#002FA7;">**[EMNLP 2025 findings]**</span> SkewRoute: Training-Free LLM Routing for Knowledge Graph Retrieval-Augmented Generation via Score Skewness.  [link](https://arxiv.org/pdf/2505.23841)
+3. <span style="color:#002FA7;">**[ICLR 2026]**</span> Taming the Fragility of KV Cache Eviction in LLM Inference. [link](https://openreview.net/forum?id=nJgS06sX3O)
+
+    *We reveal the underlying stability assumption in KV cache eviction is inherently fragile, advocating a shift from average eviction loss optimization to worst-case risk control. We employ an extremely simple defensive aggregation (two-line code) to address this, reducing quality loss by up to 4.3× versus SOTA across 18 datasets.*
+
+4. <span style="color:#002FA7;">**[EMNLP 2025 findings]**</span> SkewRoute: Training-Free LLM Routing for Knowledge Graph Retrieval-Augmented Generation via Score Skewness.  [link](https://arxiv.org/pdf/2505.23841)
 
     *We propose the first LLM routing method for KG-RAG, based on the observation of a strong correlation between query difficulty and the skewness of the RAG retrieval score distribution.*
 
@@ -58,21 +62,23 @@ I am also collaborating with other researchers on LLM RAG, focusing on deploymen
 
 For full publications, please refer to my  [google scholar](https://scholar.google.com/citations?user=d2ESOiIAAAAJ&hl=en).
 
-1. <span style="color:#002FA7;">**[NeurIPS 2025]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference."  ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
+1. <span style="color:#002FA7;">**[ICLR 2026]**</span> **Yuan Feng**, Haoyu Guo, Junlin Lv,  S. Kevin Zhou, and Xike Xie. "Taming the Fragility of KV Cache Eviction in LLM Inference."  ([paper](https://openreview.net/forum?id=nJgS06sX3O), [code](https://github.com/FFY0/AdaKV)).
 
-2. <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective." ([paper](https://arxiv.org/abs/2502.03805v1), [code](https://github.com/FFY0/AdaKV-in-NVIDIA-kvpress/tree/criticalkv)).
+2. <span style="color:#002FA7;">**[NeurIPS 2025]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference."  ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
 
-3. <span style="color:#002FA7;">**[EMNLP 2025 findings]**</span> Wang Hairu, **Yuan Feng<sup>Co-First</sup>**, Yukun Cao, Xike Xie, and S. Kevin Zhou. "SkewRoute: Training-Free LLM Routing for Knowledge Graph Retrieval-Augmented Generation via Score Skewness" ( [paper](https://arxiv.org/pdf/2505.23841?), the code will be available soon.)
+3. <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective." ([paper](https://arxiv.org/abs/2502.03805v1), [code](https://github.com/FFY0/AdaKV-in-NVIDIA-kvpress/tree/criticalkv)).
 
-4. <span style="color:#5B8C5A;">**[ICASSP 2025]**</span>   Junlin Lv, **Yuan Feng**, Xike Xie, Xin Jia, Qirong Peng, and Guiming Xie. "CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs." ([paper](https://ieeexplore.ieee.org/abstract/document/10887916), [code](https://github.com/66RING/CritiPrefill)).
+4. <span style="color:#002FA7;">**[EMNLP 2025 findings]**</span> Wang Hairu, **Yuan Feng<sup>Co-First</sup>**, Yukun Cao, Xike Xie, and S. Kevin Zhou. "SkewRoute: Training-Free LLM Routing for Knowledge Graph Retrieval-Augmented Generation via Score Skewness" ( [paper](https://arxiv.org/pdf/2505.23841?), [code](https://github.com/hrwang00/SkewRoute).)
 
-5. <span style="color:#002FA7;">**[ICML 2025]**</span> **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. ([paper](https://openreview.net/forum?id=GPSmbdTZBm), [code](https://github.com/FFY0/LegoSketch_ICML))
+5. <span style="color:#5B8C5A;">**[ICASSP 2025]**</span>   Junlin Lv, **Yuan Feng**, Xike Xie, Xin Jia, Qirong Peng, and Guiming Xie. "CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs." ([paper](https://ieeexplore.ieee.org/abstract/document/10887916), [code](https://github.com/66RING/CritiPrefill)).
 
-6.  <span style="color:#002FA7;">**[ICLR 2024 Spotlight]**</span> **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Mayfly: a Neural Data Structure for Graph Stream Summarization." ([paper](https://openreview.net/pdf?id=n7Sr8SW4bn), [code](https://openreview.net/attachment?id=n7Sr8SW4bn&name=supplementary_material))
+6. <span style="color:#002FA7;">**[ICML 2025]**</span> **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Lego Sketch: A Scalable Memory-augmented Neural Network for Sketching Data Streams. ([paper](https://openreview.net/forum?id=GPSmbdTZBm), [code](https://github.com/FFY0/LegoSketch_ICML))
 
-7.  <span style="color:#002FA7;">**[TPAMI 2024]**</span>  Yukun Cao, **Yuan Feng<sup>Co-First</sup>**, Hairu Wang, Xike Xie, and S. Kevin Zhou. "Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data." ([paper](https://ieeexplore.ieee.org/abstract/document/10499867/), [code](https://github.com/FFY0/MetaSketch_TPAMI)).
+7.  <span style="color:#002FA7;">**[ICLR 2024 Spotlight]**</span> **Yuan Feng**, Yukun Cao, Wang Hairu, Xike Xie, and S. Kevin Zhou. "Mayfly: a Neural Data Structure for Graph Stream Summarization." ([paper](https://openreview.net/pdf?id=n7Sr8SW4bn), [code](https://openreview.net/attachment?id=n7Sr8SW4bn&name=supplementary_material))
 
-8. <span style="color:#002FA7;">**[AAAI 2023 Oral]**</span>  Yukun Cao, **Yuan Feng**, and Xike Xie. "Meta-sketch: A neural data structure for estimating item frequencies of data streams." ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/25846), [code](https://github.com/FFY0/meta-sketch))
+8.  <span style="color:#002FA7;">**[TPAMI 2024]**</span>  Yukun Cao, **Yuan Feng<sup>Co-First</sup>**, Hairu Wang, Xike Xie, and S. Kevin Zhou. "Learning to Sketch: A Neural Approach to Item Frequency Estimation in Streaming Data." ([paper](https://ieeexplore.ieee.org/abstract/document/10499867/), [code](https://github.com/FFY0/MetaSketch_TPAMI)).
+
+9. <span style="color:#002FA7;">**[AAAI 2023 Oral]**</span>  Yukun Cao, **Yuan Feng**, and Xike Xie. "Meta-sketch: A neural data structure for estimating item frequencies of data streams." ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/25846), [code](https://github.com/FFY0/meta-sketch))
 
 ------
 
@@ -92,6 +98,7 @@ For full publications, please refer to my  [google scholar](https://scholar.goog
 
 Reviewer
 
+* ICML, 2026
 * NeurIPS, 2024 & 2025
 * ICLR, 2024 & 2025 & 2026
 * ICDE, 2024 & 2025
