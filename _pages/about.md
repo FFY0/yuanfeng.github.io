@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I earned my bachelor’s degree at HIT in 2022. In the same year, I joined the School of Computer Science at USTC for my master’s degree and transitioned to the PhD program in 2024. Currently, I am a second-year Ph.D. candidate jointly supervised by Prof. [Prof. Xike Xie](http://staff.ustc.edu.cn/~xkxie/) and [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en).
+I earned my bachelor’s degree at HIT in 2022. In the same year, I joined the School of Computer Science at USTC for my master’s degree and transitioned to the PhD program in 2024. Currently, I am a second-year Ph.D. candidate jointly supervised by Prof. [Prof. Xike Xie](http://staff.ustc.edu.cn/~xkxie/) and [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl=en). I am also working as a research intern at the Alibaba Qwen Omni Team, focusing on advancing omni-modal models for long-form, real-time interaction.
 
 Please don’t hesitate to reach out for any discussion. You can contact me via Email: yfung@mail dot ustc dot edu dot cn or WeChat: movingffy. I am always open to engaging in intriguing research endeavors! 😊
 
@@ -15,7 +15,7 @@ Please don’t hesitate to reach out for any discussion. You can contact me via 
 
 ## Research Interests:
 
-My research started with exploring NNs' memory to tackle interesting tasks. Additionally, I am delving into the KV Cache memory of LLMs to unravel their workings and contribute to applications like LLM efficiency.
+My research started with exploring NNs' memory to tackle interesting tasks. Currently, my work focuses on improving the token efficiency of LLMs to advance their applications in long-horizon and multimodal applications.
 
 
 🎯 **Teaching NNs to memorize data streams & Learnable Large-Scale Data Compression.**
@@ -31,7 +31,7 @@ My research started with exploring NNs' memory to tackle interesting tasks. Addi
   
     *We introduced the first head-wise adaptive cache compression method and open-sourced our code. Through active collaboration with the community, we have helped drive progress in head-wise cache compression, enabling many follow-up works. Explore our [github repo](https://github.com/FFY0/AdaKV)*
 
-2. <span style="color:#BEBEBE;">**[arXiv]**</span> Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective. [link](https://arxiv.org/abs/2502.03805v1)
+2. <span style="color:#002FA7;">**[ICML 2026]**</span> CriticalKV: Optimizing KV Cache Eviction from an Output Perturbation Perspective. [link](https://arxiv.org/abs/2502.03805v1)
 
     *We present the first perturbation-based analysis showing that KV cache eviction improves when integrating value-cache information with LLM pretrained parameters. We believe this work offes a novel theoretical perspective on KV cache importance estimation.*
 
@@ -66,7 +66,7 @@ For full publications, please refer to my  [google scholar](https://scholar.goog
 
 2. <span style="color:#002FA7;">**[NeurIPS 2025]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Ada-kv: Optimizing kv cache eviction by adaptive budget allocation for efficient llm inference."  ([paper](https://arxiv.org/abs/2407.11550), [code](https://github.com/FFY0/AdaKV)).
 
-3. <span style="color:#BEBEBE;">**[Arxiv]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective." ([paper](https://arxiv.org/abs/2502.03805v1), [code](https://github.com/FFY0/AdaKV-in-NVIDIA-kvpress/tree/criticalkv)).
+3. <span style="color:#002FA7;">**[ICML 2026]**</span> **Yuan Feng**, Junlin Lv, Yukun Cao, Xike Xie, and S. Kevin Zhou. "Identify Critical KV Cache in LLM Inference from an Output Perturbation Perspective." ([paper](https://arxiv.org/abs/2502.03805v1), [code](https://github.com/FFY0/AdaKV-in-NVIDIA-kvpress/tree/criticalkv)).
 
 4. <span style="color:#002FA7;">**[EMNLP 2025 findings]**</span> Wang Hairu, **Yuan Feng<sup>Co-First</sup>**, Yukun Cao, Xike Xie, and S. Kevin Zhou. "SkewRoute: Training-Free LLM Routing for Knowledge Graph Retrieval-Augmented Generation via Score Skewness" ( [paper](https://arxiv.org/pdf/2505.23841?), [code](https://github.com/hrwang00/SkewRoute).)
 
